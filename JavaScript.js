@@ -48,7 +48,7 @@ let fun4RandomValue = function () {
         }
         flag=1;
     }
-    if (flag=1){
+    if (flag==1){
         counterRandom++;
         alert(counterRandom)
     }
