@@ -1,22 +1,26 @@
 console.log('Hello console');
 // Function 1
 let fun1 = function () {
-    let a = 20;
+    let a = 10;
     let b = 10;
     if (a === b) {
         console.log('a===b');
+        return;
         alert('a===b');
     } else {
         if (a == b) {
             alert('a==b');
             console.log('a==b');
+            return;
         } else {
             if (a > b) {
                 alert('a>b');
                 console.log('a>b');
+                return;
             } else {
                 alert('a<b');
                 console.log('a<b');
+                return;
             }
         }
     }
@@ -44,7 +48,7 @@ let fun4RandomValue = function () {
     if (flag==0){
         counterRandom = +prompt('Input your number', 0)
         if (isNaN(counterRandom)){
-            counterRandom=-1
+            counterRandom=0
         }
         flag=1;
     }
