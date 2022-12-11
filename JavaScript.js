@@ -5,8 +5,8 @@ let fun1 = function () {
     let b = 10;
     if (a === b) {
         console.log('a===b');
-        return;
         alert('a===b');
+        return;
     } else {
         if (a == b) {
             alert('a==b');
